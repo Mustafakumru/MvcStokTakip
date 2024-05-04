@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2bca3cc14721475da7fa55445830cbba" Name="Diagram1">
+        <EntityTypeShape EntityType="DbEnttiyUrunModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEnttiyUrunModel.Tbl_Kategori" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEnttiyUrunModel.Tbl_Musterı" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEnttiyUrunModel.Tbl_Satıs" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEnttiyUrunModel.Tbl_Urun" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbEnttiyUrunModel.FK_Tbl_Urun_Tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEnttiyUrunModel.FK_Tbl_Satıs_Tbl_Musterı" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEnttiyUrunModel.FK_Tbl_Satıs_Tbl_Urun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
